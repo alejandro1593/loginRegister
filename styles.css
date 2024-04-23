@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/c6/d3/e9/c6d3e97148c9f27f6fac32cd2df288d4.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajustar el tamaño de la imagen al tamaño del cuerpo */
+    background-position: center; /* Centrar la imagen en el cuerpo */
+    color: #fff;
+}
+
+.container {
+    background-image: url('https://i.pinimg.com/originals/30/14/64/301464d75827230f045aec1ac75c2949.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajustar el tamaño de la imagen al tamaño del cuerpo */
+    background-position: center; /* Centrar la imagen en el cuerpo */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container.hidden {
+   
+    opacity: 0;
+    pointer-events: none;
+}
+
+h2 {
+    color: #8155c9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    color:  #8155c9;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #333;
+}
+
+button {
+    background-color: #8155c97a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5585c97a;
+}
+
+a {
+    color:  #2ca7e1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
